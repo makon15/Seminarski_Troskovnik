@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.seminarski_troskovnik.MainActivity">
+    <item
+        android:id="@+id/Dodaj_novi_trosak"
+        android:title="Dodaj novi trošak"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/Izbrisi_trosak"
+        android:title="Izbriši trošak"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/Azuriraj_trosak"
+        android:title="Ažuriraj trošak"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/trosak_cijena_reset"
+        android:title="Resetiraj brojač svih troškova"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/Prikazi_graf_bar"
+        android:title="Prikaži graf mjesečne potrošnje"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/Prikazi_pie_chart"
+        android:title="Prikaži graf po bojama"
+        app:showAsAction="ifRoom"
+        />
+</menu>
